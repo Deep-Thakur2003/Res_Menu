@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Restaurant Menu</title>
+    <link rel="icon" type="image/webp"href="Resturant.webp">
+    <style>
+        body {
+            font-family: 'Helvetica Neue', sans-serif;
+            background-color: #ffffff;
+            color: #444;
+            margin: 0;
+            padding: 0;
+        }
+
+        h1 {
+            color: #1e90ff;
+            text-align: center;
+            font-size: 3em;
+            margin-top: 30px;
+            letter-spacing: 5px;
+            text-transform: uppercase;
+        }
+
+        h2, h3 {
+            text-align: center;
+            color: #333;
+        }
+
+        h2 {
+            font-size: 2.2em;
+            margin-bottom: 15px;
+            border-bottom: 3px solid #1e90ff;
+            display: inline-block;
+            padding-bottom: 5px;
+        }
+
+        h3 {
+            font-size: 1.7em;
+            margin-top: 40px;
+            color: #1e90ff;
+            border-bottom: 2px solid #1e90ff;
+            display: inline-block;
+            padding-bottom: 5px;
+        }
+
+        table {
+            margin: 30px auto;
+            width: 70%;
+            border-collapse: separate;
+            border-spacing: 0;
+            background-color: #f8f8f8;
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+        }
+
+        th, td {
+            padding: 15px 20px;
+            text-align: center;
+        }
+
+        th {
+            background-color: #1e90ff;
+            color: white;
+            font-size: 1.1em;
+            font-weight: 600;
+        }
+
+        td {
+            font-size: 1em;
+            color: #333;
+        }
+
+        tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+
+        tr:hover {
+            background-color: #e6f7ff;
+        }
+
+        ul {
+            list-style-type: none;
+            padding: 0;
+            text-align: center;
+            margin: 30px 0;
+        }
+
+        ul li {
+            margin: 8px 0;
+            font-size: 1.2em;
+            color: #555;
+        }
+
+        p {
+            text-align: center;
+            margin-top: 40px;
+            font-size: 1.1em;
+            color: #777;
+            font-style: italic;
+        }
+        .contact-button {
+            display: inline-block;
+            background-color: #1e90ff;
+            color: white;
+            padding: 10px 20px;
+            text-decoration: none;
+            font-size: 1em;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+            margin-top: 20px;
+        }
+
+        .contact-button:hover {
+            background-color: #0c78cc;
+        }
+        @media (max-width: 768px) {
+            table {
+                width: 85%;
+            }
+
+            h1 {
+                font-size: 2.5em;
+            }
+
+            h2 {
+                font-size: 1.8em;
+            }
+
+            h3 {
+                font-size: 1.4em;
+            }
+
+            .contact-button {
+                font-size: 0.9em;
+                padding: 8px 16px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <h1><i>Nandan Restaurant</i></h1>
+    <h2><u>Menu</u></h2>
+    
+    <h3><u>Main Course</u></h3>
+    <table>
+        <tr>
+            <th>Item</th>
+            <th>Price</th>
+        </tr>
+        <tr>
+            <td>Non-veg Thali</td>
+            <td>₹250</td>
+        </tr>
+        <tr>
+            <td>Veg Thali</td>
+            <td>₹175</td>
+        </tr>
+        <tr>
+            <td>Spicy Chicken</td>
+            <td>₹220</td>
+        </tr>
+        <tr>
+            <td>Special Veg Thali</td> 
+            <td>₹260</td>
+        </tr>
+    </table>
+    
+    <h3><u>Appetizers</u></h3>
+    <table>
+        <tr>
+            <th>Item</th>
+            <th>Price</th>
+        </tr>
+        <tr>
+            <td>Fruit Salad</td>
+            <td>₹75</td>
+        </tr>
+        <tr>
+            <td>Dahi Vada</td>
+            <td>₹60</td>
+        </tr>
+        <tr>
+            <td>Indian Style Potato Sliders</td>
+            <td>₹80</td>
+        </tr>
+        <tr>
+            <td>Paneer Tikka</td>
+            <td>₹70</td>
+        </tr>
+    </table>
+    
+    <h3><u>Beverages</u></h3>
+    <table>
+        <tr>
+            <th>Item</th>
+            <th>Price</th>
+        </tr>
+        <tr>
+            <td>Milk Tea</td>
+            <td>₹20</td>
+        </tr>
+        <tr>
+            <td>Iced-Tea</td>
+            <td>₹45</td>
+        </tr>
+        <tr>
+            <td>Black Coffee</td>
+            <td>₹50</td>
+        </tr>
+        <tr>
+            <td>Lemon Tea</td>
+            <td>₹30</td>
+        </tr>
+        <tr>
+            <td>Jaljeera</td>
+            <td>₹35</td>
+        </tr>
+    </table>
+
+    <h2>Contact Us</h2>
+    <ul>
+        <li>Telephone: +91-9883880676</li>
+        <li>Email: Nandanrestu1@gmail.com</li>
+        <li>Address: College St., Kolkata</li>
+    </ul>
+    
+    <p><u>Leave a lasting impression on guests, encouraging them to share their experience with others.</u></p>
+    <div style="text-align: center;">
+        <a href="contact.html" class="contact-button">Contact Us Now</a>
+    </div>
+</body>
+</html>
